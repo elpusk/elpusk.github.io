@@ -59,7 +59,7 @@
 <body>
     <div class="container">
         <h1>XX-MSR 제품 분석 보고서</h1>
-        <p class="date">xAI, 2025년 7월 10일</p>
+        <p class="date">xAI, 2025년 7월 11일</p>
 
         <h2>제품 개요</h2>
         <p>XX-MSR는 마그네틱 스트라이프 리더(MSR)와 스마트 카드 리더(SCR) 기능을 단일 장치에 통합한 다기능 장치로, 마그네틱 카드 읽기 및 IC 카드 읽기/쓰기 기능을 지원합니다.</p>
@@ -103,6 +103,25 @@
             <li><strong>SCR 파트</strong>: T0 working time extension 처리 부분만 같다면, 기존 프로그램을 사용 가능.</li>
             <li><strong>MSR 파트</strong>: 현재 사용 중인 <code>mrwjslib.dll</code>의 소스 또는 함수 프로토타입 및 기능 설명서를 얻어 동일 기능을 하는 DLL을 제작해야 함.</li>
         </ul>
+
+        <h3>기타</h3>
+        <ul>
+            <li>
+            단종된 <code>lpu237 E type rev G</code>는 외부 LED 를 사용 불가능해서, 기존 LPU-208D 의 LED 보드를 사용하기 위해서,
+            <code>lpu237 E type rev G</code> 의 CN2.6(GND), CN2.7(TXD), CN1.1(IDATA)를 LED 보드 J2.2(GND), J2.3(GREEN), J2.1(RED) 에 각 연결 할 수 있는 하네스 케이블 필요.
+            이 변경에 따라 펨웨어는 LED 포트 정의를 변경한 새로운 모델 필요.( 모델이 추가되면 소프트웨어 추가도 필요됨.)
+            </li>
+            <li>
+            EMV IC 모듈을 USB 로 사용하기 위한 저항 제거 필요.
+            </li>
+            <li>
+            EMV IC 모듈과 <code>lpu237 E type rev G</code> 연결을 위한 하네스 케이블 필요.
+            </li>
+            <li>
+            <code>lpu237 E type rev G</code> 와 USB 로 PC에 연결할 하네스 케이블 필요.
+            </li>
+        </ul>
+
     </div>
 </body>
 </html>
