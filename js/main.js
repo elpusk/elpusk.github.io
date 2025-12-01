@@ -8,6 +8,13 @@ const sectionsData = [
                 link: "https://elpusk.github.io/web.lpu23x",
                 footer: "Go to lpu23x page",
                 isExternal: true
+            },
+            {
+                title: "lpu23x Tools",
+                text: "Tools for lpu23x device.",
+                link: "https://elpusk.github.io/library.js.coffee/tools_lpu237_full.html",
+                footer: "Go to lpu23x tools page",
+                isExternal: true
             }
         ]
     },
