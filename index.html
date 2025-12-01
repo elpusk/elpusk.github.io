@@ -1,43 +1,116 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elpusk Co.,Ltd - Technical Information</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        .card-link:hover .card {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column vh-100">
 
-<h1>ElpuskCo.,Ltd  Technical information</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Elpusk Co.,Ltd</a>
+        </div>
+    </nav>
 
-<p>Devices</p>
-    <a href="https://elpusk.github.io/web.lpu23x">lpu23x</a>
+    <main class="container mt-5 mb-5">
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Technical Information</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Welcome to the technical information page for Elpusk Co.,Ltd. Here you can find links to device information, reports, and other resources.</p>
+            </div>
+        </div>
 
-<p>Report</p>
-    <a href="/report/20250710-report-msr.html">20250710-report-msr</a>
+        <!-- Devices Section -->
+        <div class="mb-5">
+            <h2>Devices</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="https://elpusk.github.io/web.lpu23x" class="card-link" target="_blank" rel="noopener noreferrer">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">lpu23x</h5>
+                                <p class="card-text">Information about the lpu23x device.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Go to lpu23x page</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more devices here -->
+            </div>
+        </div>
 
-<br>
-<br>
+        <!-- Test Reports Section -->
+        <div class="mb-5">
+            <h2>Test Reports</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="./report/20250710-report-msr.html" class="card-link">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">MSR Test Report</h5>
+                                <p class="card-text">Test report from 2025-07-10.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">View Report</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more reports here -->
+            </div>
+        </div>
 
-<p>Works</p>
-* ssanmsr <br>
-001. arm 에서 주는 tools chain, make, cmake, vscode 로 무료 개발 환경 구축 - 끝.<br>
-002. ssanmsr solution 을 위한, bootloader 및 tarenstop proeject 기본 folder structure 구축 - 끝.<br>
-003. C language 표준 라이브러리를 사용하지 않는 prject 를 위한 build 환경 구축 및 test - 끝.<br>
-004. 받은 sample 의 uart porject 만 bootloader porject 에 porting 하여, uart 동작 test - 끝.<br>
-005. sample 의 external interrupt porject 만 bootloader porject 에 porting 하여, 외부 interrupt 동작 test - 끝.<br>
-006. sample 의 MSR reading porject 만 bootloader porject 에 porting 하여, test - 일시 중단.<br>
-- 제공되는 library 만 사용해야 한다는 조건때문에 일시 중단.<br>
-- 제공되는 library 로 테스트하면, 동작하는 것은 확인.<br>
-007. sample 의 system tick porject 만 bootloader porject 에 porting 동작 test - 끝.<br>
-008. sample 의 timer porject 만 bootloader porject 에 porting 동작 test - 끝.<br>
-009. sample 의 usb hid porject 만 bootloader porject 에 porting 동작 test - 끝.<br>
-010. internal flash RW test 를 위해 bootloader porject 에 porting.<br>
-011. 기존 lpu237 에 사용하던 bootloader 를 bootloader porject 에 porting 동작 test - 끝.<br>
-012. 기존 lpu237 에 사용하던 ganymede firmware 를 tarenstop porject 에 porting.<br>
-013. 기존 lpu237 에 사용하던 europa firmware 를 tarenstop porject 에 porting.<br>
-014. ganymede 와 europa 를 결합한 새로운 제품 lpu236 을 himalia 이름으로 tarenstop porject 에 porting.<br>
-015. lpu236 의 himalia 양산을 위한 실제 보드 그리기.(개발보드에서 포트 및 기타 부품 변경 예정)<br>
-016. lpu236 의 himalia 을 위한 test case 작성.<br>
-017. lpu236 의 himalia sample 제작(SMT 포함).<br>
-018. lpu236 의 himalia 양산 전 마지막 테스트.<br>
-019. lpu236 의 himalia 양산에 필요한 장비 구매 또는 개발.<br>
-020. lpu236 의 himalia 양산에 필요한 문서 작성 및 업로드.<br>
+        <!-- Work Section -->
+        <div class="mb-5">
+            <h2>Work</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="./ssamsr/ssanmsr.html" class="card-link">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">SSAMSR</h5>
+                                <p class="card-text">SSAMSR related information.</p>
+                            </div>
+                             <div class="card-footer">
+                                <small class="text-muted">View SSAMSR</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more work items here -->
+            </div>
+        </div>
+    </main>
 
+    <footer class="py-4 bg-dark text-white-50 mt-auto">
+        <div class="container text-center">
+            <small>Copyright &copy; Elpusk Co.,Ltd</small>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
