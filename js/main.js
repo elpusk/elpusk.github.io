@@ -36,7 +36,7 @@ const sectionsData = [
             {
                 title: "SSAMSR",
                 text: "SSAMSR related information.",
-                link: "./ssamsr/ssanmsr.html",
+                link: "./ssanmsr/ssanmsr.html",
                 footer: "View SSAMSR",
                 isExternal: false
             }
