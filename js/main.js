@@ -26,6 +26,19 @@ const sectionsData = [
             }
         ]
     },
+    // Software 섹션 추가
+    {
+        title: "Software",
+        items: [
+            {
+                title: "coffee framework 2nd",
+                text: "coffee framework 2nd release.",
+                link: "https://github.com/elpusk/publish.framework.coffee.2nd",
+                footer: "Go to coffee framework 2nd page",
+                isExternal: true
+            }
+        ]
+    },
     {
         title: "Test Reports",
         items: [
