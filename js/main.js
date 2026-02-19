@@ -15,6 +15,14 @@ const sectionsData = [
                 link: "https://elpusk.github.io/library.js.coffee/tools_lpu237_full.html",
                 footer: "Go to lpu23x tools page",
                 isExternal: true
+            },
+            // lpu23x Tools 2nd 항목 추가
+            {
+                title: "lpu23x Tools 2nd",
+                text: "2nd tools for lpu23x device.",
+                link: "https://elpusk.github.io/library.js.coffee.2nd/",
+                footer: "Go to lpu23x tools 2nd page",
+                isExternal: true
             }
         ]
     },
