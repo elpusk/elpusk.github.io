@@ -38,19 +38,8 @@ const sectionsData = [
             }
         ]
     },
-    {
-        title: "Work",
-        items: [
-            {
-                title: "SSAMSR",
-                text: "SSAMSR related information.",
-                link: "./ssanmsr/ssanmsr.html",
-                footer: "View SSAMSR",
-                isExternal: false
-            }
-        ]
-    }
 ];
+// Work 섹션 삭제
 
 function createCard(item) {
     const target = item.isExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
