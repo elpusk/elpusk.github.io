@@ -36,6 +36,14 @@ const sectionsData = [
                 link: "https://github.com/elpusk/publish.framework.coffee.2nd",
                 footer: "Go to coffee framework 2nd page",
                 isExternal: true
+            },
+            // frontend engineer 가 coffee framework 2nd 를 사용하기 위한 TypeScript 라이브러리
+            {
+                title: "typescript for cf2",
+                text: "TypeScript library for frontend engineers using coffee framework 2nd.",
+                link: "https://github.com/elpusk/library.js.coffee.2nd",
+                footer: "Go to typescript for cf2 page",
+                isExternal: true
             }
         ]
     },
