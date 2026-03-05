@@ -18,10 +18,18 @@ const sectionsData = [
             },
             // lpu23x Tools 2nd 항목 추가
             {
-                title: "lpu23x Tools 2nd",
-                text: "2nd tools for lpu23x device.",
-                link: "https://elpusk.github.io/library.js.coffee.2nd/",
-                footer: "Go to lpu23x tools 2nd page",
+                title: "lpu23x Tools developed using cf2 and t-cf2.",
+                text: "WebMapper for lpu23x device.",
+                link: "https://elpusk.github.io/library.js.coffee.2nd/app/webmapper/",
+                footer: "Go to WebMapper page",
+                isExternal: true
+            },
+            // lpu23x MSR reader fo cf 2nd 항목 추가
+            {
+                title: "lpu23x Tools developed using cf2 and t-cf2.",
+                text: "Reading Magetic card for lpu23x device.",
+                link: "https://elpusk.github.io/library.js.coffee.2nd/app/webmsr-read/",
+                footer: "Go to lpu23x MSR reading page",
                 isExternal: true
             }
         ]
@@ -31,7 +39,7 @@ const sectionsData = [
         title: "Software",
         items: [
             {
-                title: "coffee framework 2nd",
+                title: "coffee framework 2nd(cf2)",
                 text: "coffee framework 2nd release.",
                 link: "https://github.com/elpusk/publish.framework.coffee.2nd",
                 footer: "Go to coffee framework 2nd page",
@@ -39,7 +47,7 @@ const sectionsData = [
             },
             // frontend engineer 가 coffee framework 2nd 를 사용하기 위한 TypeScript 라이브러리
             {
-                title: "typescript for cf2",
+                title: "typescript library for cf2(t-cf2)",
                 text: "TypeScript library for frontend engineers using coffee framework 2nd.",
                 link: "https://github.com/elpusk/library.js.coffee.2nd",
                 footer: "Go to typescript for cf2 page",
