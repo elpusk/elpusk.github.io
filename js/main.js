@@ -10,7 +10,7 @@ const sectionsData = [
                 isExternal: true
             },
             {
-                title: "lpu23x Tools",
+                title: "lpu23x Tools(depricated)",
                 text: "Tools for lpu23x device.",
                 link: "https://elpusk.github.io/library.js.coffee/tools_lpu237_full.html",
                 footer: "Go to lpu23x tools page",
@@ -27,9 +27,17 @@ const sectionsData = [
             // lpu23x MSR reader fo cf 2nd 항목 추가
             {
                 title: "lpu23x Tools developed using cf2 and t-cf2.",
-                text: "Reading Magetic card for lpu23x device.",
+                text: "Reading Magnetic card for lpu23x device.",
                 link: "https://elpusk.github.io/library.js.coffee.2nd/app/webmsr-read/",
                 footer: "Go to lpu23x MSR reading page",
+                isExternal: true
+            },
+            // lpu23x i-button reader fo cf 2nd 항목 추가
+            {
+                title: "lpu23x Tools developed using cf2 and t-cf2.",
+                text: "Reading i-button for lpu237 & lpu238 device.",
+                link: "https://elpusk.github.io/library.js.coffee.2nd/app/webibutton-read/",
+                footer: "Go to lpu23x i-button reading page",
                 isExternal: true
             }
         ]
