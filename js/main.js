@@ -10,7 +10,7 @@ const sectionsData = [
                 isExternal: true
             },
             {
-                title: "lpu23x Tools(depricated)",
+                title: "lpu23x Tools(deprecated)",
                 text: "Tools for lpu23x device.",
                 link: "https://elpusk.github.io/library.js.coffee/tools_lpu237_full.html",
                 footer: "Go to lpu23x tools page",
