@@ -75,6 +75,20 @@ const sectionsData = [
             }
         ]
     },
+
+    {
+        title: "기타 검토",
+        items: [
+            {
+                title: "LPC1343 교체 검토",
+                text: "2026-07-10, by gemini ",
+                link: "./doc/ai/gemini-lpc1343대체검토.html",
+                footer: "검토 결과",
+                isExternal: false
+            }
+        ]
+    },
+
 ];
 // Work 섹션 삭제
 
